@@ -1,0 +1,32 @@
+.load-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+.load-btn{
+    width:200px;
+    height:55px;
+
+    border:none;
+    border-radius:30px;
+
+    background-color:#0b69ff;
+
+    color:white;
+
+    font-size:18px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.load-btn:hover{
+    background-color:#0049c6;
+    transform:translateY(-3px);
+}

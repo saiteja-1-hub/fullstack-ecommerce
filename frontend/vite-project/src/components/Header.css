@@ -1,0 +1,29 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 40px;
+
+    background:white;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+
+.nav-links{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+@media screen and (max-width:768px){
+
+.navbar{
+    flex-direction:column;
+    gap:20px;
+}
+
+.nav-links{
+    gap:20px;
+}
+}
